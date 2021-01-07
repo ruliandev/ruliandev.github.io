@@ -10,7 +10,7 @@
     background-color: #0873C3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 }
 
 .menu ul
@@ -64,4 +64,70 @@
 .fundamental
 {
     width: 195px;
+}
+
+label[for = "bt_menu"]
+{
+    background-color: #0873C3;
+    color: #fff;
+    padding: 5px;
+    size: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#bt_menu
+{
+    display: none;
+}
+
+@media(max-width: 800px)
+{
+    .medio
+    {
+        width: 100%;
+    }
+
+    .fundamental
+    {
+        width: 100%;
+    }
+
+    label[for = "bt_menu"]
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .menu
+    {
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+    }
+
+    #bt_menu:checked ~ .menu
+    {
+        margin-left: 0;
+    }
+
+    .menu ul li
+    {
+        width: 100%;
+        float: none;
+    }
+    .menu ul ul
+    {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+
+    .menu ul li:hover ul
+    {
+        height: auto;
+        max-height: 200px;
+    }
 }
