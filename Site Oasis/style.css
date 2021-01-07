@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu
+{
+    width: 100%;
+    height: 60px;
+    background-color: #0873C3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.menu ul
+{
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li
+{
+    width: relative;
+    float: right;
+}
+
+.menu a
+{
+    padding: 21px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0873C3;
+    color: white;
+}
+
+.menu ul ul
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul
+{
+    visibility: visible;
+}
+
+.menu a:hover
+{
+    background-color: #0b67a8;
+}
+
+.menu ul ul li
+{
+    float: none;
+}
+
+.medio
+{
+    width: 141px;
+}
+
+.fundamental
+{
+    width: 195px;
+}
