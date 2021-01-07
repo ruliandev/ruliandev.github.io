@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+.logo
+{
+    color: #F7C207;
+    padding: 15px;
+    margin-right: 230px;
+    margin-left: 135px;
+}
+
 .menu
 {
     width: 100%;
@@ -22,7 +30,7 @@
 .menu ul li
 {
     width: relative;
-    float: right;
+    float: left;
 }
 
 .menu a
@@ -82,8 +90,13 @@ label[for = "bt_menu"]
     display: none;
 }
 
-@media(max-width: 800px)
+@media(max-width: 1175px)
 {
+    .logo
+    {
+        display: none;
+    }
+
     .medio
     {
         width: 100%;
@@ -117,12 +130,13 @@ label[for = "bt_menu"]
         width: 100%;
         float: none;
     }
+
     .menu ul ul
     {
         position: static;
         overflow: hidden;
         max-height: 0;
-        transition: all .4s;
+        transition: all .3s;
     }
 
     .menu ul li:hover ul
@@ -130,4 +144,6 @@ label[for = "bt_menu"]
         height: auto;
         max-height: 200px;
     }
+
+
 }
