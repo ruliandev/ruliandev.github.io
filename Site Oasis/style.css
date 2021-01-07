@@ -17,7 +17,7 @@
     height: 60px;
     background-color: #0873C3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 }
@@ -72,12 +72,17 @@
 
 .medio
 {
-    width: 141px;
+    width: 146px;
 }
 
 .fundamental
 {
-    width: 195px;
+    width: 202px;
+}
+
+.contato
+{
+    width: relative;
 }
 
 label[for = "bt_menu"]
@@ -113,6 +118,11 @@ label[for = "bt_menu"]
         width: 100%;
     }
 
+    .contato
+    {
+        width: 100%;
+    }
+
     label[for = "bt_menu"]
     {
         color: #F7C207;
@@ -124,8 +134,7 @@ label[for = "bt_menu"]
 
     .menu
     {
-        margin-top: 5px;
-        margin-left: -100%;
+        margin-left: -110%;
         transition: all .3s;
     }
 
