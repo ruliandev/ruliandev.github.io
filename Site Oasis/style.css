@@ -18,6 +18,7 @@
     background-color: #0873C3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    font-weight: 600;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 }
 
@@ -115,7 +116,7 @@ label[for = "bt_menu"]
     label[for = "bt_menu"]
     {
         color: #F7C207;
-        font-size: 1px;
+        font-size: 30%;
         padding: 10px;
         display: block;
         text-align: center;
