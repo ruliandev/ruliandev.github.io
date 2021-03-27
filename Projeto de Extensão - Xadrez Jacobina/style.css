@@ -70,12 +70,12 @@
     float: none;
 }
 
-.medio
+.conteudo
 {
     width: 146px;
 }
 
-.fundamental
+.tutoriais
 {
     width: 202px;
 }
@@ -108,12 +108,12 @@ label[for = "bt_menu"]
         display: none;
     }
 
-    .medio
+    .conteudo
     {
         width: 100%;
     }
 
-    .fundamental
+    .tutoriais
     {
         width: 100%;
     }
